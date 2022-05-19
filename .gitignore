@@ -1,3 +1,4 @@
 .idea/*
 ./src/build
 .env
+/app/node_modules/
