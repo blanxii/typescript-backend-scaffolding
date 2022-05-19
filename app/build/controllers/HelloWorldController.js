@@ -1,6 +1,0 @@
-export class HelloWorldController {
-    async handle(_request, response) {
-        response.json({ test: 'hello-world' });
-    }
-}
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGVsbG9Xb3JsZENvbnRyb2xsZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvY29udHJvbGxlcnMvSGVsbG9Xb3JsZENvbnRyb2xsZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUEsTUFBTSxPQUFPLG9CQUFvQjtJQUMvQixLQUFLLENBQUMsTUFBTSxDQUFDLFFBQWlCLEVBQUUsUUFBa0I7UUFFaEQsUUFBUSxDQUFDLElBQUksQ0FBQyxFQUFDLElBQUksRUFBRSxhQUFhLEVBQUMsQ0FBQyxDQUFBO0lBQ3RDLENBQUM7Q0FDRiJ9
