@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      target: development
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/opt/app
+    environment:
+      SQL_HOST_READ: 'db'
+      SQL_HOST: 'db'
+      SQL_DATABASE: 'project'
+      SQL_PASSWORD: '12345678'
+
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678
+      MYSQL_DATABASE: project
+    ports:
+      - "3306:3306"
